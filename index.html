@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Multiplayer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <canvas id="theCanvas"></canvas>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyAnEGrnRjrA7IvYgILsvuh2H0Xx7IJ2BRo",
+            authDomain: "js-multiplayer-game-47f56.firebaseapp.com",
+            databaseURL: "https://js-multiplayer-game-47f56-default-rtdb.firebaseio.com",
+            projectId: "js-multiplayer-game-47f56",
+            storageBucket: "js-multiplayer-game-47f56.appspot.com",
+            messagingSenderId: "422290087626",
+            appId: "1:422290087626:web:d691c62e8bb011993c1e33"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
